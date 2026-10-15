@@ -1,8 +1,8 @@
 class Sift < Formula
   desc "Terminal-first macOS maintenance, app uninstaller, and disk analysis toolkit"
   homepage "https://github.com/SadeepaNHerath/Sift"
-  url "https://github.com/SadeepaNHerath/Sift/archive/refs/tags/v2.2.0.tar.gz"
-  sha256 "be78604c2b63da18a412dd67ec9ae018a1aafb28dc4a0d172e53992598402eca"
+  url "https://github.com/SadeepaNHerath/Sift/archive/refs/tags/v2.3.0.tar.gz"
+  sha256 "692fc1ead96e069352e86eae15479ffc75f17d6d1928a9a9f91faea11d058a6c"
   license "MIT"
   head "https://github.com/SadeepaNHerath/Sift.git", branch: "main"
 

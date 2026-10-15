@@ -9,12 +9,12 @@ class Sf < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/SadeepaNHerath/Sift/releases/download/v2.2.0/Spacefold_2.2.0_darwin_arm64.tar.gz"
-      sha256 "0e293deb22baf24f141355588584741f92a12ee32067d544fee57876c91359c0"
+      url "https://github.com/SadeepaNHerath/Sift/releases/download/v2.3.0/Sift_2.3.0_darwin_arm64.tar.gz"
+      sha256 "e234b2cddcd73d73531219d1cb7b851ab4ff95f5a4f6ab9eaeb4fc3b8bbddbfb"
     end
     on_intel do
-      url "https://github.com/SadeepaNHerath/Sift/releases/download/v2.2.0/Spacefold_2.2.0_darwin_amd64.tar.gz"
-      sha256 "853ee48a49c36138f4acbed1e7db768d41735c6c583a51a055e67aaca3eb2fdb"
+      url "https://github.com/SadeepaNHerath/Sift/releases/download/v2.3.0/Sift_2.3.0_darwin_amd64.tar.gz"
+      sha256 "8a5075bb9c12a2842df959840f75eca790f9c613805603c2279320102999fc77"
     end
   end
 
