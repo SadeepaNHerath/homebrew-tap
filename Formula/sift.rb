@@ -23,6 +23,11 @@ class Sift < Formula
       Sift (sf) requires non-root user execution. Never run with sudo sf.
       Elevate privileges with Touch ID via:
         sf touchid enable
+
+      If 'sf --version' still shows an older version after upgrading, an older
+      binary (e.g. from an earlier curl install) in ~/.local/bin may be shadowing Homebrew:
+        which -a sf
+        rm -f ~/.local/bin/sf
     EOS
   end
 
